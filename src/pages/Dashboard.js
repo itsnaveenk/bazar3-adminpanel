@@ -57,7 +57,7 @@ const Dashboard = () => {
               <div className="d-flex align-items-center justify-content-center" style={{ height: "150px" }}>
                 <div className="text-center">
                   <h1 className="display-1 text-primary">{teamCount}</h1>
-                  <p className="lead">Total Teams</p>
+                  <p className="lead">Total Games</p>
                 </div>
               </div>
             </Card.Body>

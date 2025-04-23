@@ -20,8 +20,8 @@ body {
 
 .sidebar {
   min-height: 100vh;
-  background-color: #343a40;
-  padding-top: 20px;
+  background-color: #212529;
+  /* padding-top: 20px; */
 }
 
 .sidebar-link {
@@ -168,4 +168,11 @@ body {
 .display-1.text-primary:hover {
   transform: scale(1.05);
   text-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+@media (max-width: 720px) {
+.sidebar {
+  min-height: min-content;
+  background-color:inherit;
+  padding-top: 0px;
+}
 }

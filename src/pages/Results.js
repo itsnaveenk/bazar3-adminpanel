@@ -188,7 +188,7 @@ const Results = () => {
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2>Results Management</h2>
         <Button variant="primary" onClick={handleOpenCreateModal}>
-          <FiPlus className="me-1" /> Add Result
+          <FiPlus className="me-1" /> Add Games
         </Button>
       </div>
       
@@ -205,7 +205,7 @@ const Results = () => {
                     value={selectedTeam} 
                     onChange={handleFilterChange}
                   >
-                    <option value="">All Teams</option>
+                    <option value="">All Today's Games</option>
                     {teams.map(team => (
                       <option key={team.id} value={team.name}>
                         {team.name}
